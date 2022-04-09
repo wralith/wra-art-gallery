@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink, Outlet } from "react-router-dom";
 
 //TODO Add Hamburger Menu for Mobile
 
@@ -12,10 +13,10 @@ export default function Navbar() {
       </div>
       <ul className="hidden md:flex flex-row gap-2 lg:gap-12">
         <li>
-          <a href="#">Explore</a>
+          <NavLink to={'/'} href="#">Home</NavLink>
         </li>
         <li>
-          <a href="#">Artists</a>
+          <NavLink to={'/random-arts'} href="#">Random Art</NavLink>
         </li>
         <li>
           <a href="#">Collections</a>
@@ -36,6 +37,7 @@ export default function Navbar() {
           </a>
         </li>
       </ul>
+    <Outlet />
     </nav>
   );
 }
