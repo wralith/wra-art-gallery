@@ -21,7 +21,7 @@ export default function Header() {
           src="src/assets/images/wc.png"
           alt="header-img"
           height={600}
-          className="scale-150 -z-10 rotate-180 absolute -sm:right-1"
+          className="scale-150 -z-10 rotate-180 absolute -sm:right-1 object-fit"
         />
       </div>
     </header>
