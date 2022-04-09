@@ -1,5 +1,4 @@
 import React from "react";
-import { ImDeviantart } from "react-icons/im";
 import HeaderSocials from "./HeaderSocials";
 
 export default function Header() {
