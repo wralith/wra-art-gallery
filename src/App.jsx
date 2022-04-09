@@ -1,12 +1,13 @@
 import Navbar from "./components/Layout/Navbar"
 import BgWrapper from "./components/UI/BgWrapper"
+import Header from "./components/Header/Header"
 
 function App() {
 
   return (
     <BgWrapper>
     <Navbar/>
-    <h1 className='bg-red-200'>Hello World</h1>
+    <Header/>
     </BgWrapper>
   )
 }
